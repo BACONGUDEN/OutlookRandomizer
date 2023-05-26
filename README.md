@@ -11,7 +11,7 @@ It replaces the placeholdertext `[[RANDOM_GREETING]]` and `[[RANDOM_QUOTE]]` alr
 - You need to have access to the VBA Editor in Outlook, some workplaces or schools limit the access to these due to security risks.
 
 ## Script Setup
-1. Download the `outlookrandomizer.vbs` script from this repository.
+1. Download the `outlook_randomizer.vbs` script from this repository.
 2. Create two new text files somewhere on your computer and name them `greetings.txt` and the other `quotes.txt`.
 3. Add lines of your desired text to both text files, each separated per line.   
 ![alt text](https://i.imgur.com/wMfMj8G.png)
@@ -25,7 +25,7 @@ Example: *C:\Users\BACONGUDEN\Documents\OutlookRandomizer\signature.html*
 10. Open Outlook, and press Alt + F11 to open upp the Outlook Script Editor.
 11. Go to `Tools > References` and enable `Microsoft Word Object Library` and click OK.
 12. Open `Project1` on the left-hand side, as well as `Microsoft Outlook Objects`.
-13. Double-click `ThisOutlookSession` and copy-paste the code from `outlookrandomizer.vbs` into that window.
+13. Double-click `ThisOutlookSession` and copy-paste the code from `outlook_randomizer.vbs` into that window.
 14. Press **CTRL + S** on your keyboard to save, alternatively press `File > Save VbaProject.OTM`.
 
 ## Finishing Setup
